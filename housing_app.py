@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error,r2_score
 
-df=pd.read_csv("House_Rent_Dataset.csv")
+df=pd.read_csv("C:\\Users\\hp\\Downloads\\INDIA HOUSING\\House_Rent_Dataset.csv")
 df.drop(['Posted On', 'Tenant Preferred', 'Area Locality'], axis=1, inplace=True)
 # Define features and target
 features = ['BHK', 'Size', 'City', 'Furnishing Status', 'Bathroom']
