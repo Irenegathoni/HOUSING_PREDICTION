@@ -55,7 +55,7 @@ bathroom = st.slider("Number of Bathrooms", 1, 10, 1)
 # Predict button
 if st.button("Predict Rent"):
     input_data = pd.DataFrame({
-        'BHK': [bedroom,hallway,kitchen],
+        'BHK': [bhk],
         'Size': [size],
         'City': [city],
         'Furnishing Status': [furnishing],
